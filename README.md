@@ -52,5 +52,11 @@ results = model.train(
 results = model.predict(source='test/images', conf=0.25)
 #Test on a video
 results = model.predict(source='test/video.mp4', conf=0.25, save=True)
+#🔮 Future Work
+Apply to oil & gas monitoring (e.g., leak detection, equipment inspection).
+Use larger models (YOLOv8s/m/l) for higher accuracy.
+👤 Author
+Mohamed Tarek
+Computer Engineer & AI Engineer
 
 
