@@ -29,7 +29,7 @@ model = YOLO('yolov8n.pt')
 
 # Train
 results = model.train(
-    data='/kaggle/working/data_fixed.yaml',
+    data='/kaggle/working/data.yaml',
     epochs=100,
     imgsz=640,
     batch=80,
